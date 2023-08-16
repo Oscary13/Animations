@@ -83,6 +83,7 @@
     <Content Include="Estilos\main.css" />
     <Content Include="Estilos\main.js" />
     <Content Include="Global.asax" />
+    <Content Include="Vistas\AnimationDos.aspx" />
     <Content Include="Vistas\AnimationUno.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,6 +93,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\AnimationDos.aspx.cs">
+      <DependentUpon>AnimationDos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\AnimationDos.aspx.designer.cs">
+      <DependentUpon>AnimationDos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\AnimationUno.aspx.cs">
       <DependentUpon>AnimationUno.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

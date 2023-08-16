@@ -1,4 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Lato);
+﻿/*@import url(https://fonts.googleapis.com/css?family=Lato);
 
 #info {
     position: absolute;
@@ -279,3 +279,16 @@ body {
         margin-left: 55%;
         background: #e9e5d5;
     }
+*/
+
+
+/*--------------------------------------------------------*/
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body {
+    background: black;
+}
